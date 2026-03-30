@@ -1,13 +1,8 @@
 # Confidence200303.github.io
 
 # Confidence Tlangelani Khoza
-**ICT Student** | 222927402@mycput.ac.za | [github.com/confidence200303](https://github.com/confidence200303)
-
----
-
-## Summary
-# Confidence Tlangelani Khoza
-**ICT Student** | 222927402@mycput.ac.za | [github.com/confidence200303](https://github.com/confidence200303)
+**ICT Student** | 222927402@mycput.ac.za | [github.com/confidence200303](https://github.com/confidence200303) | www.linkedin.com/in/confidence
+khoza-4793a9233 
 
 ---
 
