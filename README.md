@@ -1,5 +1,5 @@
 # Confidence200303.github.io
-
+# Digital Portfolio
 # Confidence Tlangelani Khoza
 **ICT Student** | 222927402@mycput.ac.za | [github.com/confidence200303](https://github.com/confidence200303) | www.linkedin.com/in/confidencekhoza-4793a9233 
 
