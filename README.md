@@ -69,25 +69,7 @@ environment
 
 ---
 
-## Projects 
 
-### Hair Salon Management System
-- Designed and implemented a **Product Entity** with attributes
-- Applied **Factory Pattern** for object creation
-- Implemented **Repository Pattern** for data handling
-- Implemented **CRUD operations** (Create, Read, Update, Delete) 
-- Wrote unit tests using **JUnit**
-
-### Perfume Management System (In Progress)
-- Currently in the **documentation and design phase**
-- Defining system requirements and structure
-- Designing system components using **UML diagrams**
-- Planning a web-based system using:
-  - **Frontend:** HTML, CSS, JavaScript, Bootstrap
-  - **Backend:** PHP
-  - **Database:** SQL
-- Defining functionality for **CRUD operations** for managing perfume products
-- Applying **Object-Oriented Programming (OOP)** principles in system design 
 
 
   
