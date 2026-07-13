@@ -69,6 +69,9 @@ environment
 
 ---
 
+## Mockup Interview Video
+
+- (https://www.youtube.com/shorts/sme34N0qBUo)
 
 
 
