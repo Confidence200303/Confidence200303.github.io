@@ -58,8 +58,16 @@ I am an ICT student at Cape Peninsula University of Technology (CPUT), specialis
 
 | Course | Provider | Certificate |
 |---|---|---|
-| Google AI Essentials | [Provider] | [View](CourseraCertificates/) |
-| [Course name] | [Provider] | [View](CourseraCertificates/) |
+| Google AI Essentials | Coursera | [View](CourseraCertificates/) |
+| AI For Everyone | Coursera | [View](CourseraCertificates/) |
+| Generative AI With Prompt Engineering Baics | Coursera | [View](CourseraCertificates/) |
+| Generative AI with Large Language Models | Coursera | [View](CourseraCertificates/) |
+| Introduction Artificial Intelligence | Coursera | [View](CourseraCertificates/) |
+| Introduction to Generative AI | Coursera | [View](CourseraCertificates/) |
+| Python for Data Science, AI & Development | Coursera | [View](CourseraCertificates/) |
+| Supervised Machine Learning Regression & Classification | Coursera | [View](CourseraCertificates/) |
+| Unsupervised Learning, Recommenders, Reinforcement Learning | Coursera | [View](CourseraCertificates/) |
+
 
 > Only completed courses with a certificate belong in this table. Courses you started but did not finish go under a separate "Learning activities" heading.
 
