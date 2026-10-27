@@ -25,32 +25,39 @@
 
 ### 🔗 Industry Placement Evidence & Artifacts
 
-- **Platform Ready onboarding playbook:** [describe what you wrote: sections, user-group subsections]
-- **Mailgun API connection:** [one line on your actual contribution, only if it is part of this project]
-- **Evidence shared with permission:** [list only what you are allowed to share]
+- **Platform Ready onboarding playbook:** Researched, wrote and structured an onboarding guide to help businesses prepare for joining the Zuke platform. The playbook covers business information requirements, business profiles, business email and email signature setup, social media and online presence, and platform registration, with dedicated guidance for different user groups: Ideators, Hustlers, SMEs and Enterprise. The goal was to simplify the onboarding workflow, clarify requirements and create a more user-friendly experience for businesses.
+- **Mailgun API connection:** Created an API key in Mailgun and worked on configuring the connection with Zoho, gaining practical experience with API authentication, third-party service integration and platform configuration.
+**Evidence shared with permission:** A simple flow diagram I created to illustrate the onboarding process, and the first page of the Platform Ready Onboarding Playbook to demonstrate the document's structure and presentation. No confidential business information or private platform data will be included.
 
 ---
 
 ## 🧭 About Me
 
-I am an ICT student at Cape Peninsula University of Technology (CPUT), specialising in Application Development. I am currently on industry placement at Zuke, where I [one sentence in your own words about what you do].
+I am an ICT student at Cape Peninsula University of Technology (CPUT), specialising in Application Development. I am currently completing my industry placement at Zuke, where I contribute to frontend development, analyse user requirements, develop user-focused onboarding documentation, explore UI/UX improvements, and gain practical experience with API integration, platform configuration, and AI-powered tools to support business processes and improve digital user experiences.
 
 ---
 
 ## 💻 Current Focus
 
-- **Industry placement:** Writing the Platform Ready onboarding playbook to help businesses join the Zuke platform.
-- **AI learning:** [Your CAPACITI focus, in your own words]
+- **Industry placement:** Writing the Platform Ready onboarding playbook to help businesses join the Zuke platform and actively delivering value on real-world industry software projects by applying Agile / Scrum principles, TDD, SOLID, and OOP.
+- **Tech Stack:** Building full-stack solutions utilizing Java, Spring Boot, Python, and React.
+- **UI/UX & AI Product Design:** Serving as the FrontEnd UI/UX Designer on Tech Nova (AI smart home support companion) while experimenting with browser-based LLM architectures and API-driven workflows.
+- **AI learning:** During my CAPACITI programme, I explored artificial intelligence, generative AI, prompt engineering, AI-powered content generation and sentiment analysis. I gained practical experience applying AI concepts to projects, including developing a content generator and exploring AI tools that can help solve real-world problems. This experience strengthened my understanding of how AI can be integrated into software applications to improve user experiences and support business needs.
 
 ---
 
-## 🛠️ Skills
+## 🛠️ Skills & Tech Stack
 
-[Only list tools you have actually used and can show. Example format:]
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+
+**Practices & Methodology:** Agile planning · Technical documentation ·  Agile/Scrum · TDD · SOLID Principles · OOP · Design Patterns · Domain Driven Design
 
 **Languages and tools:** [e.g. HTML, CSS, JavaScript, Python]
-
-**Practices:** Agile planning · Technical documentation · [add others you can evidence]
 
 ---
 
@@ -69,33 +76,33 @@ I am an ICT student at Cape Peninsula University of Technology (CPUT), specialis
 | Coursera Unsupervised Learning, Recommenders, Reinforcement Learning | Coursera | [View](CourseraCertificates/) |
 
 
-> Only completed courses with a certificate belong in this table. Courses you started but did not finish go under a separate "Learning activities" heading.
-
 ---
 
 ## 🚀 CAPACITI Projects
 
-- **TechNova Support Chatbot**, *[team size]*
-  - **Role:** Frontend contributor
-  - **What it is & does:** [your description]
-  - **Link:** [repo or demo]
-- **AI Content Generator (The Composing Room)**, *[team size]*
-  - **Role:** Project coordinator / group lead
-  - **What it is & does:** [your description]
-  - **Link:** [repo or demo]
+- **TechNova Support Chatbot**, *5-member team*
+  - **Role:** Frontend Developer / Frontend Contributor
+  - **What it is & does:** A customer-support chatbot designed to help users with setting up technical items and systems. I contributed to the frontend development, focusing on the user-facing interface and how customers interact with the chatbot.
+
+- **AI Content Generator (The Composing Room)**
+  - **Role:** Project Manager / Group Leader
+  - **What it is & does:** An AI-powered content-generation project developed to help users create written content with the assistance of AI. I led the group and coordinated the development process.
+  
 - **Sentiment Analysis**
-  - **Role:** [your role]
-  - **What it is & does:** [your description]
-- **Community Water, Sanitation and Electricity Solution**, *[team size]*
-  - **Role:** Backend developer
-  - **What it is & does:** [your description]
-  - **Community benefit:** [your description]
+  - **Role:** FrontEnd Developer
+  - **What it is & does:** An AI project focused on sentiment analysis, involving the application of AI concepts to understand the sentiment expressed in text. This project formed part of my practical AI learning during CAPACITI.
+
+- **Community Water, Sanitation and Electricity Solution**
+  - **Role:** Backend Developer
+  - **What it is & does:** A community-focused AI solution aimed at addressing challenges related to water access, sanitation, electricity and other community needs. I contributed to the backend development.
+  - **Community benefit:** The solution aimed to help communities address everyday infrastructure and service-delivery challenges by providing a technology-based approach to identifying or communicating these needs.
+
 
 ---
 
 ## 🌱 Goals
 
-[2–3 sentences in your own words about the developer you want to become.]
+My goal is to become a skilled and innovative software developer who creates practical, user-friendly solutions to real-world problems. I want to strengthen my skills in application development, frontend and backend technologies, API integration, and artificial intelligence while gaining experience working on real projects. In the future, I hope to contribute to meaningful technology projects, continue learning new skills, and grow into a confident developer who makes a positive impact through technology.
 
 ---
 
