@@ -21,7 +21,6 @@
 | **04. Sprint Backlog** | Tasks selected for a sprint, with responsibilities and progress. | [View Sprint Backlog](docs/04-sprint-backlog.md) |
 | **05. Agile Logbook** | Dated activities, challenges, retrospective notes and lessons learned. | [View Logbook](docs/05-agile-logbook.md) |
 
-> Each document contains an **Evidence** section and a **Reflection** section.
 
 ### 🔗 Industry Placement Evidence & Artifacts
 
