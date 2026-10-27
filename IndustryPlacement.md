@@ -3,7 +3,7 @@
 <h3 align="center">ICT Applications Development Student | Industry Placement Trainee | Frontend &amp; AI</h3>
 
 <p align="center">
-  <a href="https://github.com/confidence200303"><img src="https://img.shields.io/badge/GitHub-Portfolio-555?logo=github&labelColor=555&color=b57edc" alt="GitHub"></a>
+  <a href="https://confidence200303.github.io/"><img src="https://img.shields.io/badge/GitHub-Portfolio-555?logo=github&labelColor=555&color=b57edc" alt="Live Portfolio"></a>
   <a href="https://www.linkedin.com/in/confidencekhoza-4793a9233/"><img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-555?labelColor=555&color=8e4585" alt="LinkedIn"></a>
 </p>
 
