@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidence Khoza | ICT Applications Development Portfolio</title>
+<meta name="description" content="Digital portfolio of Confidence Tlangelani Khoza, final-year ICT student at CPUT specialising in Applications Development.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#120b18;--bg2:#1b1124;--card:#241631;--line:#3a2750;--lilac:#b57edc;--lilac2:#d4adf0;--plum:#6b2d7a;--text:#efe6f5;--mute:#a994b8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 Poppins,system-ui,sans-serif}
+a{color:var(--lilac2)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--lilac);outline-offset:3px}
+h1,h2,h3{line-height:1.2;margin:0 0 .5em}
+h2{font-size:clamp(1.8rem,4vw,2.5rem);text-align:center}
+.wrap{max-width:1080px;margin:auto;padding:0 1.2rem}
+.kick{display:block;text-align:center;color:var(--lilac);font-weight:600;margin-bottom:.3rem}
+nav{position:sticky;top:0;z-index:10;background:rgba(18,11,24,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:1.4rem;flex-wrap:wrap;padding-top:.7rem;padding-bottom:.7rem}
+.logo{display:flex;align-items:center;gap:.6rem;font-weight:700;color:#fff;text-decoration:none;margin-right:auto}
+.logo i{font-style:normal;background:var(--lilac);color:var(--bg);border-radius:8px;padding:.1rem .55rem}
+nav a.l{color:var(--mute);text-decoration:none;font-size:.88rem;font-weight:500;padding:.3rem 0;border-bottom:2px solid transparent}
+nav a.l:hover,nav a.l.on{color:#fff;border-color:var(--lilac)}
+#hero{min-height:84vh;display:grid;place-items:center;text-align:center;background:radial-gradient(60% 60% at 15% 10%,rgba(107,45,122,.5),transparent),radial-gradient(50% 50% at 90% 95%,rgba(181,126,220,.22),transparent)}
+#hero h1{font-size:clamp(2.4rem,7vw,5rem);font-weight:700;margin:0}
+.role{font-size:1.4rem;min-height:2.2rem;margin:.6rem 0 1.6rem}
+.cur{border-right:2px solid var(--lilac);margin-left:2px}
+.soc{display:flex;justify-content:center;gap:1rem}
+.soc a{width:54px;height:54px;border-radius:50%;background:#fff;color:var(--bg);display:grid;place-items:center}
+.soc svg{width:26px;height:26px;fill:currentColor}
+section{padding:5rem 0}
+section.alt{background:var(--bg2)}
+.about{display:grid;grid-template-columns:1fr 1.2fr;gap:3rem;align-items:center}
+.about h2{text-align:left}
+.photo{aspect-ratio:1;border-radius:20px;background:linear-gradient(135deg,var(--plum),var(--lilac));display:grid;place-items:center;text-align:center;font-weight:700;font-size:4rem;color:#fff}
+.photo small{display:block;font-size:.85rem;font-weight:400;opacity:.85}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;padding:0;list-style:none;margin:1rem 0}
+.chips li{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:.2rem .9rem;font-size:.9rem}
+.btn{display:inline-block;background:var(--lilac);color:var(--bg);font-weight:600;padding:.7rem 1.4rem;border-radius:8px;text-decoration:none;border:0;font-family:inherit;font-size:1rem;cursor:pointer}
+.btn.o{background:transparent;color:var(--lilac2);border:1px solid var(--lilac)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.4rem;margin-top:2.2rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.5rem}
+.card p{color:var(--mute);margin:0}
+.ico{width:46px;height:46px;border-radius:10px;background:rgba(181,126,220,.18);display:grid;place-items:center;font-size:1.3rem;margin-bottom:1rem}
+.filters{display:flex;justify-content:center;gap:.6rem;margin:1.6rem 0}
+.filters button{background:transparent;color:var(--text);border:1px solid var(--line);border-radius:99px;padding:.35rem 1.2rem;font:inherit;cursor:pointer}
+.filters button[aria-pressed=true]{background:var(--lilac);color:var(--bg);border-color:var(--lilac)}
+.proj{padding:0;overflow:hidden}
+.proj .top{height:120px;display:grid;place-items:center;font-weight:700;font-size:1.25rem;text-align:center;padding:0 1rem;color:#fff}
+.proj .in{padding:1.3rem}
+.proj .r{color:var(--lilac2);font-size:.9rem;margin-bottom:.4rem}
+.proj .t{font-size:.82rem;color:var(--mute);margin-top:.6rem}
+.g1{background:linear-gradient(135deg,#6b2d7a,#c0559c)}.g2{background:linear-gradient(135deg,#3b2a7a,#b57edc)}.g3{background:linear-gradient(135deg,#8a3f9a,#e0a0d8)}.g4{background:linear-gradient(135deg,#4a1f4f,#9b6bd0)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;margin-top:2.2rem}
+.card h3{font-size:1.15rem}
+.card ul.b{padding-left:1.1rem;margin:0}
+.card ul.b li{margin-bottom:.7rem;color:var(--mute)}
+.card ul.b b{color:var(--text)}
+.doc{display:flex;justify-content:space-between;align-items:center;gap:1rem;background:var(--bg2);border-radius:10px;padding:.7rem 1rem;margin-bottom:.7rem}
+.doc span{font-weight:500}.doc em{font-style:normal;font-size:.9rem;white-space:nowrap}
+.note{border-left:3px solid var(--lilac);background:var(--card);padding:.7rem 1rem;border-radius:0 8px 8px 0;color:var(--mute);font-size:.92rem;margin-top:1rem}
+.tw{overflow-x:auto;margin-top:2rem}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:.8rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--lilac2);font-weight:600}td{color:var(--mute)}td:first-child{color:var(--text);white-space:nowrap}
+.cta{text-align:center;max-width:760px;margin:auto;background:linear-gradient(135deg,var(--plum),#2b1840);border:1px solid var(--line);border-radius:16px;padding:3rem 1.5rem}
+footer{border-top:1px solid var(--line);text-align:center;padding:2rem 1rem;color:var(--mute);font-size:.9rem}
+@media(max-width:780px){.about,.two{grid-template-columns:1fr}.about h2{text-align:center}.photo{max-width:260px;margin:auto}nav .wrap{gap:.8rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<a class="logo" href="#hero"><i>CK</i> Confidence Khoza</a>
+<a class="l" href="#about">About</a><a class="l" href="#what">What I do</a><a class="l" href="#work">Work</a><a class="l" href="#placement">Placement</a><a class="l" href="#capaciti">CAPACITI</a><a class="l" href="#skills">Skills</a><a class="l" href="#contact">Contact</a>
+</div></nav>
 
+<section id="hero"><div class="wrap">
+<h1>I am Confidence Khoza</h1>
+<div class="role"><span id="type"></span><span class="cur"></span></div>
+<div class="soc">
+<a href="https://github.com/confidence200303" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+<a href="https://www.linkedin.com/in/confidencekhoza-4793a9233/" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.75 9.75h3.8v1.54h.05c.53-1 1.82-2.05 3.75-2.05 4 0 4.75 2.63 4.75 6.05V21h-4v-4.9c0-1.17 0-2.67-1.63-2.67s-1.87 1.27-1.87 2.59V21h-4z"/></svg></a>
+<a href="mailto:222927402@mycput.ac.za" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.4 7H19.6zM4 9v8h16V9l-8 5.5z"/></svg></a>
+</div></div></section>
+
+<section id="about" class="alt"><div class="wrap about">
+<!-- To use a real photo, replace the whole div below with: <img src="images/portrait.png" alt="Confidence Khoza" class="photo"> -->
+<div class="photo" role="img" aria-label="Cartoon illustration of a smiling young woman wearing headphones">
+<svg viewBox="0 0 200 200" width="100%" height="100%" aria-hidden="true">
+<circle cx="100" cy="78" r="50" fill="#1c1022"/>
+<circle cx="62" cy="62" r="20" fill="#1c1022"/><circle cx="138" cy="62" r="20" fill="#1c1022"/>
+<circle cx="52" cy="88" r="16" fill="#1c1022"/><circle cx="148" cy="88" r="16" fill="#1c1022"/>
+<rect x="88" y="120" width="24" height="26" rx="8" fill="#8c5a3c"/>
+<ellipse cx="100" cy="94" rx="34" ry="40" fill="#a8714f"/>
+<path d="M66 82c4-24 64-24 68 0-14-12-54-12-68 0z" fill="#1c1022"/>
+<circle cx="86" cy="96" r="4" fill="#1c1022"/><circle cx="114" cy="96" r="4" fill="#1c1022"/>
+<circle cx="86" cy="96" r="11" fill="none" stroke="#fff" stroke-width="2.5"/><circle cx="114" cy="96" r="11" fill="none" stroke="#fff" stroke-width="2.5"/>
+<path d="M97 96h6" stroke="#fff" stroke-width="2.5"/>
+<path d="M88 114q12 10 24 0" fill="none" stroke="#5a2a1e" stroke-width="3" stroke-linecap="round"/>
+<path d="M62 92a38 38 0 0 1 76 0" fill="none" stroke="#4a1f4f" stroke-width="6" stroke-linecap="round"/>
+<rect x="55" y="88" width="12" height="24" rx="6" fill="#4a1f4f"/><rect x="133" y="88" width="12" height="24" rx="6" fill="#4a1f4f"/>
+<path d="M34 200c0-34 28-52 66-52s66 18 66 52z" fill="#d4adf0"/>
+<path d="M84 148l16 18 16-18" fill="none" stroke="#6b2d7a" stroke-width="4" stroke-linejoin="round"/>
+</svg></div>
+<div>
+<span class="kick" style="text-align:left">About me</span>
+<h2>I am Confidence Tlangelani Khoza</h2>
+<p>I am a final-year student working towards a Diploma in ICT: Applications Development at the Cape Peninsula University of Technology (CPUT) in Cape Town. I enjoy building user-focused applications, designing databases and solving problems.</p>
+<p>I am currently on industry placement at Zuke, where I wrote the Platform Ready onboarding playbook, and I took part in the CAPACITI AI programme. [Add one sentence about your career goal.]</p>
+<ul class="chips"><li>Dip ICT: Applications Development</li><li>CPUT</li><li>Industry placement</li><li>Databases</li></ul>
+<a class="btn" href="#work">See my projects</a>
+</div></div></section>
+
+<section id="what"><div class="wrap">
+<span class="kick">What I do</span><h2>Where my skills fit</h2>
+<div class="grid">
+<div class="card"><div class="ico">⌨️</div><h3>Software development</h3><p>Object-oriented programming in Java, with UML to plan before I build.</p></div>
+<div class="card"><div class="ico">🗄️</div><h3>Databases</h3><p>Designing and querying relational databases with SQL and MySQL.</p></div>
+<div class="card"><div class="ico">🎨</div><h3>Frontend basics</h3><p>HTML, CSS and JavaScript, with interface ideas sketched in Figma.</p></div>
+<div class="card"><div class="ico">📘</div><h3>Documentation and Agile</h3><p>Writing onboarding guides and planning work with charters, backlogs and logbooks.</p></div>
+</div></div></section>
+
+<section id="work" class="alt"><div class="wrap">
+<span class="kick">Work</span><h2>Selected projects</h2>
+<div class="filters" role="group" aria-label="Filter projects">
+<button aria-pressed="true" data-f="all">All</button><button aria-pressed="false" data-f="web">Web</button><button aria-pressed="false" data-f="ai">AI</button></div>
+<div class="grid">
+<div class="card proj" data-t="web ai"><div class="top g1">TechNova Support Chatbot</div><div class="in"><div class="r">Frontend contributor · CAPACITI</div><p>A chatbot interface for customer support.</p><div class="t">[Tools] · <a href="#">[Link]</a></div></div></div>
+<div class="card proj" data-t="ai"><div class="top g2">The Composing Room</div><div class="in"><div class="r">Project coordinator · Team project</div><p>An AI-assisted content generator built by a CAPACITI team.</p><div class="t">[Tools] · <a href="#">[Link]</a></div></div></div>
+<div class="card proj" data-t="ai"><div class="top g3">Sentiment Analysis</div><div class="in"><div class="r">[Your role] · CAPACITI</div><p>Text analysis exploring Python and language-model concepts.</p><div class="t">[Tools] · <a href="#">[Link]</a></div></div></div>
+<div class="card proj" data-t="web"><div class="top g4">Community Services Solution</div><div class="in"><div class="r">Backend developer · Team project</div><p>A solution for community water, sanitation and electricity challenges.</p><div class="t">[Tools] · <a href="#">[Link]</a></div></div></div>
+<div class="card proj" data-t="ai"><div class="top g1">Career Compass AI</div><div class="in"><div class="r">[Your role]</div><p>An AI career guidance tool that matches skills to career paths.</p><div class="t">[Tools] · <a href="#">[Link]</a></div></div></div>
+<div class="card proj" data-t="web"><div class="top g2">Smart Attendance Register</div><div class="in"><div class="r">[Your role]</div><p>A digital attendance register with sign-in, records and reports.</p><div class="t">[Tools] · <a href="#">[Link]</a></div></div></div>
+</div></div></section>
+
+<section id="placement"><div class="wrap">
+<span class="kick">Industry placement</span><h2>Zuke</h2>
+<p style="text-align:center;color:var(--mute)">Role: [Your official placement title] · Dates: [start] to present</p>
+<div class="two">
+<div class="card"><h3>What I did</h3>
+<ul class="b">
+<li><b>Platform Ready playbook:</b> I wrote the full onboarding playbook, including subsections for specific user groups: [name them].</li>
+<li><b>Mailgun API connection:</b> I created a Mailgun API key, connected it to the Zuke platform (which uses Zoho) and tested the connection.</li>
+<li><b>AI social media training:</b> I helped teach businesses to create social posts with AI.</li>
+<li><b>Onboarding and login:</b> I observed my supervisor onboarding businesses and [one or two] users myself. I explored a simpler login concept, which was deferred for further planning.</li>
+</ul>
+<p class="note">Client data and platform screenshots are not shown because I do not have permission to share them.</p>
+<p><a class="btn o" href="IndustryPlacement.md">Read placement notes</a></p></div>
+<div class="card"><h3>Agile assessment documents</h3>
+<div class="doc"><span>01. Agile Team Charter</span><em><a data-doc="01-agile-team-charter.md#evidence" href="#">Evidence</a> · <a data-doc="01-agile-team-charter.md#reflection" href="#">Reflection</a></em></div>
+<div class="doc"><span>02. User Stories and Tasks</span><em><a data-doc="02-user-stories-and-tasks.md#evidence" href="#">Evidence</a> · <a data-doc="02-user-stories-and-tasks.md#reflection" href="#">Reflection</a></em></div>
+<div class="doc"><span>03. Product Backlog</span><em><a data-doc="03-product-backlog.md#evidence" href="#">Evidence</a> · <a data-doc="03-product-backlog.md#reflection" href="#">Reflection</a></em></div>
+<div class="doc"><span>04. Sprint Backlog</span><em><a data-doc="04-sprint-backlog.md#evidence" href="#">Evidence</a> · <a data-doc="04-sprint-backlog.md#reflection" href="#">Reflection</a></em></div>
+<div class="doc"><span>05. Agile Logbook</span><em><a data-doc="05-agile-logbook.md#evidence" href="#">Evidence</a> · <a data-doc="05-agile-logbook.md#reflection" href="#">Reflection</a></em></div>
+</div></div></div></section>
+
+<section id="capaciti" class="alt"><div class="wrap">
+<span class="kick">CAPACITI</span><h2>Work integrated learning</h2>
+<div class="tw"><table>
+<thead><tr><th>Week</th><th>Activity</th><th>What I did and learned</th></tr></thead>
+<tbody>
+<tr><td>Week 1</td><td>Induction</td><td>Joined the TechNova team, set up Teams and Outlook, started Google AI Essentials.</td></tr>
+<tr><td>Week 2</td><td>TechNova chatbot</td><td>Contributed to the frontend while continuing AI learning.</td></tr>
+<tr><td>Week 3</td><td>AI content generator</td><td>Coordinated the group and took part in stand-ups.</td></tr>
+<tr><td>Week 4</td><td>Sentiment analysis</td><td>Built Python and language-model knowledge.</td></tr>
+<tr><td>Week 5</td><td>Community solution</td><td>Backend developer on a community services project.</td></tr>
+</tbody></table></div></div></section>
+
+<section id="skills"><div class="wrap">
+<span class="kick">Skills and certificates</span><h2>Tools and training</h2>
+<div class="two">
+<div class="card"><h3>Technical skills</h3>
+<ul class="chips"><li>Java</li><li>SQL</li><li>MySQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>OOP</li><li>UML</li><li>Git</li><li>GitHub</li><li>IntelliJ IDEA</li><li>NetBeans</li><li>Visual Studio</li><li>Figma</li><li>Python (learning)</li></ul>
+<h3>Practices</h3><ul class="chips"><li>Agile planning</li><li>Technical documentation</li><li>Teamwork</li></ul></div>
+<div class="card"><h3>Certificates</h3>
+<ul class="b">
+<li><b>Google AI Essentials</b> · Google (Coursera)</li>
+<li><b>Generative AI: Prompt Engineering Basics</b> · [Provider]</li>
+<li><b>AI For Everyone</b> · DeepLearning.AI</li>
+<li><b>Introduction to Artificial Intelligence</b> · [Provider]</li>
+<li><b>Introduction to Generative AI</b> · [Provider]</li>
+</ul>
+<p class="note">Only keep courses you have a certificate for.</p>
+<p><a class="btn o" href="CourseraCertificates/">Browse certificates</a></p></div>
+</div>
+</div></section>
+
+<section id="reflection" class="alt"><div class="wrap" style="max-width:760px">
+<span class="kick">Reflection</span><h2>What I have learned</h2>
+<p>[Write 2 to 3 paragraphs in your own words: what you learned at Zuke and CAPACITI, how the Agile documents helped you plan and review your work, and what you want to improve next.]</p>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="cta">
+<h2>Let's connect</h2>
+<p style="color:var(--mute)">Open to internships and graduate opportunities in software development.</p>
+<a class="btn" href="mailto:222927402@mycput.ac.za">Send an email</a>
+</div></div></section>
+
+<footer>© 2026 Confidence Tlangelani Khoza · Cape Town, South Africa</footer>
+
+<script>
+var base="https://github.com/Confidence200303/Confidence200303.github.io/blob/main/docs/";
+document.querySelectorAll("a[data-doc]").forEach(function(a){a.href=base+a.dataset.doc;});
+
+var roles=["AI Solution Developer","ICT Development Developer","Software Developer","UI/UX Developer","Data Analyst"],el=document.getElementById("type");
+if(matchMedia("(prefers-reduced-motion:reduce)").matches){el.textContent=roles[0];}
+else{var r=0,c=0,del=false;(function tick(){var w=roles[r];el.textContent=w.slice(0,c);
+ if(!del&&c<w.length){c++;setTimeout(tick,70);}else if(!del){del=true;setTimeout(tick,1500);}
+ else if(c>0){c--;setTimeout(tick,35);}else{del=false;r=(r+1)%roles.length;setTimeout(tick,300);}})();}
+
+document.querySelectorAll(".filters button").forEach(function(b){b.onclick=function(){
+ document.querySelectorAll(".filters button").forEach(function(x){x.setAttribute("aria-pressed",x===b);});
+ document.querySelectorAll(".proj").forEach(function(p){p.hidden=!(b.dataset.f==="all"||p.dataset.t.split(" ").indexOf(b.dataset.f)>-1);});};});
+
+var links=document.querySelectorAll("nav a.l"),io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(l){l.classList.toggle("on",l.getAttribute("href")==="#"+e.target.id);});}});},{rootMargin:"-45% 0px -50% 0px"});
+document.querySelectorAll("section[id]").forEach(function(s){io.observe(s);});
+</script>
+</body>
+</html>
