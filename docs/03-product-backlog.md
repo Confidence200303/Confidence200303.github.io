@@ -24,7 +24,6 @@ The product backlog identifies and prioritises the requirements for the Platform
 | PB-08 | Include a visual onboarding workflow or supporting diagram. | US-01 | Could have | Optional enhancement |
 | PB-09 | Include approved screenshots or redacted examples where useful. | US-01, US-03 | Could have | Subject to permission |
 
-*Status note: The playbook was reviewed or approved by my supervisor. The individual item statuses above should be checked against the final document before submission. Optional enhancements are not marked as completed unless they were actually produced.*
 
 ### Why This Order?
 
