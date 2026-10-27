@@ -58,15 +58,15 @@ I am an ICT student at Cape Peninsula University of Technology (CPUT), specialis
 
 | Course | Provider | Certificate |
 |---|---|---|
-| Google AI Essentials | Coursera | [View](CourseraCertificates/) |
-| AI For Everyone | Coursera | [View](CourseraCertificates/) |
-| Generative AI With Prompt Engineering Baics | Coursera | [View](CourseraCertificates/) |
-| Generative AI with Large Language Models | Coursera | [View](CourseraCertificates/) |
-| Introduction Artificial Intelligence | Coursera | [View](CourseraCertificates/) |
-| Introduction to Generative AI | Coursera | [View](CourseraCertificates/) |
-| Python for Data Science, AI & Development | Coursera | [View](CourseraCertificates/) |
-| Supervised Machine Learning Regression & Classification | Coursera | [View](CourseraCertificates/) |
-| Unsupervised Learning, Recommenders, Reinforcement Learning | Coursera | [View](CourseraCertificates/) |
+| Coursera Google AI Essentials | Coursera | [View](CourseraCertificates/) |
+| Coursera AI For Everyone | Coursera | [View](CourseraCertificates/) |
+| Coursera Generative AI With Prompt Engineering Baics | Coursera | [View](CourseraCertificates/) |
+| Coursera Generative AI with Large Language Models | Coursera | [View](CourseraCertificates/) |
+| Coursera Introduction Artificial Intelligence | Coursera | [View](CourseraCertificates/) |
+| Coursera Introduction to Generative AI | Coursera | [View](CourseraCertificates/) |
+| Coursera Python for Data Science, AI & Development | Coursera | [View](CourseraCertificates/) |
+| Coursera Supervised Machine Learning Regression & Classification | Coursera | [View](CourseraCertificates/) |
+| Coursera Unsupervised Learning, Recommenders, Reinforcement Learning | Coursera | [View](CourseraCertificates/) |
 
 
 > Only completed courses with a certificate belong in this table. Courses you started but did not finish go under a separate "Learning activities" heading.
